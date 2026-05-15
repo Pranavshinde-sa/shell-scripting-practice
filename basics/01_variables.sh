@@ -1,5 +1,5 @@
 #!/bin/bash
-#!/bin/bash
+
 name="pranav"
 age=21
 favourite_language="python"
