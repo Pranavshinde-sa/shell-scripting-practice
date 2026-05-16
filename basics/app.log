@@ -1,0 +1,11 @@
+2026-05-16 04:30:12 [INFO] Server application started successfully on port 8080
+2026-05-16 04:31:05 [WARNING] Memory usage exceeded 75% threshold
+2026-05-16 04:32:41 [INFO] Database connection pool initialized (5/20 connections)
+2026-05-16 04:35:10 [WARNING] Slow response time detected for endpoint /api/v1/users
+2026-05-16 04:36:15 [ERROR] Connection timed out: Failed to reach external payment gateway
+2026-05-16 04:36:16 [INFO] Retrying connection to payment gateway (Attempt 1/3)
+2026-05-16 04:36:18 [INFO] Successfully re-established connection to payment gateway
+2026-05-16 04:40:02 [WARNING] Disk space on volume /dev/sda1 is running low (89% full)
+2026-05-16 04:45:22 [ERROR] UnhandledNullPointerException in AuthController.java line 142
+2026-05-16 04:45:25 [INFO] User session terminated due to an unexpected application error
+
