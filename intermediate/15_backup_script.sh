@@ -1,7 +1,6 @@
 #!/bin/bash
 mkdir -p backups
-
-read -p "Enter file name : " file_name 
+file_name="$1"
 
 if [ -z "$file_name" ]
 then
@@ -12,9 +11,12 @@ if [ -e "$file_name" ]
 then
 	timestamp=$(date +%Y-%m-%d_%H_%M_%S)
 
-	tar -czf "./backups/backup_$timestamp.tar.gz" "$file_name"
-
-	echo "backup created succesfully"
+	if tar -czf "./backups/backup_$timestamp.tar.gz" "$file_name"
+	then 
+		echo "backup created succesfully"
+	else 
+		echo "backup failed"
+	fi
 else 
 	echo "file/directory not found"
 fi
