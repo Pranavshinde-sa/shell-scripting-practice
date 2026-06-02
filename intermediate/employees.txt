@@ -1,0 +1,7 @@
+# Employee Database
+
+101:John:DevOps
+102:Alice:Backend
+103:Bob:Frontend
+
+104:Charlie:QA
